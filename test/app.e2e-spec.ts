@@ -22,7 +22,7 @@ describe('AppController (e2e)', () => {
 
   describe('/ GET', () => {
     it('first test', () => {
-      return request(server).get('/').set('x-api-key', 'INVALID').expect(403);
+      return request(server).get('/').set('x-api-key', 'INVALIDss').expect(403);
     });
   });
 });
