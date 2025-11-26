@@ -33,8 +33,8 @@ describe('EmojiValidationPipe', () => {
   });
 
   it('should return ', () => {
-    const result = emojiPipe.transform('5');
+    const result = emojiPipe.transform('2');
 
-    expect(result).toEqual(5);
+    expect(result).toEqual(2);
   });
 });
